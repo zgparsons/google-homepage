@@ -1,0 +1,136 @@
+.container {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    justify-items: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.center {
+    display: grid;
+    justify-items: center;
+    padding-top: 10px;
+}
+
+.search {
+	background: rgba(0, 0, 0, 0) url("https://google.com/logos/2014/simplevideo/v10/main-sprite.png") no-repeat -134px / 199.5px 32px;
+	display: flex;
+	border-radius: 8px;
+	border: 1px solid #dfe1e5;
+	box-shadow: none;
+	border-radius: 24px;
+	z-index: 3;
+	height: 44px;
+	margin: 0 auto;
+	width: 482px;
+}
+
+.buttons {
+    padding-top: 20px;
+}
+
+.button {
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -moz-border-radius: 2px;
+    -moz-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 98%;
+}
+
+li {
+    display: inline;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.top {
+    font-size: 14px;
+    padding: 15px;
+    font-family: arial, sans-serif;
+}
+
+.menu-icon {
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    opacity: .55;
+    margin-top: 5px;
+}
+
+.account-icon {
+    background-image: url(https://lh3.googleusercontent.com/-BGbzVhJxUKo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdcMx0iaLD9YDaI4ZTI9WW7y8toTQ.CMID/s32-c/photo.jpg);
+    background-size: 32px 32px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 75px;
+    background: #f2f2f2;
+    font-family: arial, sans-serif;
+    color: #5f6368;
+}
+
+.footerone {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 50px;
+    height: 15px;
+    padding: 15px;
+    background: #f2f2f2;
+    font-size: 14px;
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footertwo {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 20px;
+    background: #f2f2f2;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+.bottom {
+    font-size: 14px;
+    padding: 0 10px 0 0;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
