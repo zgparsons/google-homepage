@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
         <div class="page-container">
@@ -10,8 +11,8 @@
                 <ul class="navigation">
                     <li class="left top">About</li>
                     <li class="left top">Store</li>
-                    <li class="right top account-icon"></li>
-                    <li class="right top menu-icon"></li>
+                    <li class="right top account"><button>Sign In</button></li>
+                    <li class="right top menu"><i class="material-icons">apps</i></li>
                     <li class="right top">Images</li>
                     <li class="right top">Gmail</li>    
                 </ul>
@@ -22,7 +23,12 @@
                     <div class="center">
                         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
                         <form class="center">
-                            <input class="search" type="search">
+                            <div class="search" type="search">
+                                <div class="search-icon">
+                                    <i class="material-icons">search</i>
+                                </div>
+                                <input>
+                            </div>
                             <div class="buttons">
                                 <button class="left button">Google Search</button>
                                 <button class="right button">I'm Feeling Lucky</button>
